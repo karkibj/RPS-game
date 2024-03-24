@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+    /* text-decoration: underline; */
+    color:aliceblue  
+}
+nav h1{
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+#gamingzone{
+    display: inline-block;
+    height: 590px;
+    width: 580px;
+    border: 3px solid rgb(19, 17, 16);
+    border-radius: 3rem;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://st2.depositphotos.com/3759469/6798/v/450/depositphotos_67982979-stock-illustration-horizontally-seamless-game-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+#logos{
+    /* border: 3px solid red; */
+    display: flex;
+    height: 200px;
+    width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+   
+   
+}
+
+.box{
+    height: 60%;
+    width: 20%;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.box :hover{
+    border: 1px solid rgb(5, 5, 216);
+}
+    
+img{
+    height: 130px;
+    width: 130px;
+}
+
+
+#scoreboard{
+    /* background-color: grey; */
+    height: 200px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+  
+   
+    
+
+}
+
+.score{
+    height: 80%;
+    width: 40%;
+    /* border: 1px solid red; */
+    /* text-decoration: green underline; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
+    font-size: 1rem;
+ 
+    
+
+}
+
+.total{
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid black; */
+    font-size: larger;
+    
+}
+
+#result{
+    height: 50px;
+    width: 300px;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 30px;
+    
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+   
+    
+
+}
+
+.bigscore{
+    color: rgb(17, 200, 17);
+    font-size: 100px;
+}
+
+#doremon{
+height: 400px;
+width: 200px;
+border: 1px solid blue;
+margin-left: 60px;
+margin-bottom: 300px;
+position: relative;
+float: inline-start;
+}
